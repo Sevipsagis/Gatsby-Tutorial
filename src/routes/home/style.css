@@ -1,5 +1,31 @@
-.home {
-  padding: 56px 20px;
-  min-height: 100%;
-  width: 100%;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #bbbbbb;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 95vh;
+  background-color: #262626;
+}
+
+.content {
+  flex: 1 1 auto;
+  max-width: 1500px;
+  height: 100%;
+}
+
+.nav {
+}
+
+.navItem {
 }

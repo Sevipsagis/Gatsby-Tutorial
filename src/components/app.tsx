@@ -2,8 +2,7 @@ import { h } from "preact";
 import { Route, Router, RouterOnChangeArgs } from "preact-router";
 
 import Home from "../routes/home";
-import Profile from "../routes/profile";
-import Header from "./header";
+import NavBar from "./navbar"
 
 if ((module as any).hot) {
     // tslint:disable-next-line:no-var-requires
@@ -18,11 +17,12 @@ const App: preact.FunctionalComponent = () => {
 
     return (
         <div id="app">
-            <Header />
             <Router onChange={handleRoute}>
                 <Route path="/" component={Home} />
-                <Route path="/profile/" component={Profile} user="me" />
-                <Route path="/profile/:user" component={Profile} />
+                <Route path="/about" component={NavBar} />
+                <Route path="/timeline" component={NavBar} />
+                <Route path="/contact" component={NavBar} />
+                <Route path="" component={Home}  />
             </Router>
         </div>
     );
