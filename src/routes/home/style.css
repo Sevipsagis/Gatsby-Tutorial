@@ -9,7 +9,7 @@
   background-color: #bbbbbb;
 }
 
-.contentWrapper {
+.content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,10 +22,4 @@
   flex: 1 1 auto;
   max-width: 1500px;
   height: 100%;
-}
-
-.nav {
-}
-
-.navItem {
 }
