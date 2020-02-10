@@ -1,8 +1,8 @@
-/* eslint-disable react/prefer-stateless-function */
 import { h, Component } from "preact";
 import style from "./style";
 
 import Navbar from "../../components/main-navigator";
+import HomeTitle from "../../components/home-title";
 
 class Home extends Component {
   render() {
@@ -12,6 +12,7 @@ class Home extends Component {
         <div class={style.contentWrapper}>
           <div class={style.content}>
             <Navbar />
+            <HomeTitle />
           </div>
         </div>
       </div>
