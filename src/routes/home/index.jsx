@@ -8,9 +8,9 @@ class Home extends Component {
   render() {
     console.log(style);
     return (
-      <div class={style["container"]}>
-        <div class={style["content-wrapper"]}>
-          <div class={style["content"]}>
+      <div class={style.container}>
+        <div class={style.contentWrapper}>
+          <div class={style.content}>
             <Navbar />
           </div>
         </div>
