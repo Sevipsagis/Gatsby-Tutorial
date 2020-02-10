@@ -11,8 +11,7 @@
     "serve": "preact build && serve build --single",
     "dev": "preact watch",
     "lint": "eslint src",
-    "test": "jest",
-    "postbuild": "mv build/* docs"
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"
