@@ -2,16 +2,16 @@
 import { h, Component } from "preact";
 import style from "./style";
 
-import NavBar from "../../components/main-navigation";
+import Navbar from "../../components/main-navigator";
 
 class Home extends Component {
   render() {
-    document.title = "Sevipsagis | Home";
+    console.log(style);
     return (
-      <div class={style.container}>
-        <div class={style.contentWrapper}>
-          <div class={style.content}>
-            <NavBar />
+      <div class={style["container"]}>
+        <div class={style["content-wrapper"]}>
+          <div class={style["content"]}>
+            <Navbar />
           </div>
         </div>
       </div>
