@@ -3,7 +3,11 @@ import style from "./style";
 
 class HomeTitle extends Component {
   render() {
-    return <div>Hello</div>;
+    return (
+      <div class={style.titleContainer}>
+        <div class={style.title}>Hello</div>
+      </div>
+    );
   }
 }
 
