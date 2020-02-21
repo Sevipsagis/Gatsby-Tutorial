@@ -1,6 +1,23 @@
-.titleContainer {
-  background-color: red;
-  width: 40vw;
-  height: 30vw;
-  margin: auto 0;
+.container {
+	background-color: red;
+	/* display: flex; */
+
+	width: 40vw;
+	height: 30vw;
+	margin: auto 0;
+}
+
+.name,
+.description {
+	flex: 1 1 100%;
+	color: #fff;
+}
+
+.name {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.description {
+	font-weight: normal;
 }
